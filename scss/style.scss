@@ -47,6 +47,17 @@ body,html{
         width:100%;
         height:auto;
         @include flex;
+        .hot{
+        width:100%;
+        height:pxTorem(44px);
+        line-height: pxTorem(44px);
+                .left{
+                    float: left;
+                }
+                .right{
+                    float: right;;
+                }
+        }
     }
     footer{
         width:100%;
